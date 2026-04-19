@@ -1,70 +1,83 @@
-<h1 align="center">🎓 Eklavya AI Learning Engine</h1>
-<h3 align="center">⚡ Autonomous Educational Content Generator & Reviewer</h3>
+<h1 align="center">🤖 EduAgent AI</h1>
+<h3 align="center">🎓 Autonomous Learning Content Engine</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/AI-Agents-purple?style=for-the-badge">
   <img src="https://img.shields.io/badge/Gemini-LLM-orange?style=for-the-badge">
   <img src="https://img.shields.io/badge/EdTech-System-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-Interactive-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Production--Ready-success?style=for-the-badge">
+</p>
+
+<p align="center">
+  <b>⚡ Generate • Evaluate • Improve — Fully Automated Learning System</b>
 </p>
 
 ---
 
-## 🎥 System Demo (AI Teaching in Action)
+## 🎥 Demo — EduAgent in Action  
 
 <p align="center">
   <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="650">
 </p>
 
 <p align="center">
-  <b>📚 AI generates → evaluates → improves learning content in real-time</b>
+  <b>📚 AI creates → reviews → refines educational content in real-time</b>
 </p>
 
 ---
 
-## 🧠 What is Eklavya AI?
+## 🧠 What is EduAgent AI?
 
-> A **self-evaluating AI teaching system** that creates and improves educational content.
+> A **self-improving AI agent system** that generates and validates educational content.
 
 ```
-📘 Topic Input → 🤖 AI Generates → 🧐 AI Reviews → 🔁 Refines → 🎯 Final Output
+🎯 Input Topic
+     ↓
+🤖 Generator Agent
+     ↓
+🧐 Reviewer Agent
+     ↓
+🔁 Feedback Loop
+     ↓
+🎓 Final Learning Output
 ```
 
 ---
 
-## ⚙️ Intelligent Agent Flow (Different Style)
+## ⚙️ Agent Intelligence Flow  
 
 ```mermaid
 flowchart TD
 
-    A[Student Input 🎯] --> B[Generator Agent 🤖]
+    A[User Input 🎯] --> B[Generator Agent 🤖]
     B --> C[Draft Content 📘]
 
     C --> D[Reviewer Agent 🧐]
-    D -->|Pass ✅| E[Final Content 🎓]
-    D -->|Fail ❌| F[Feedback Loop 🔁]
+
+    D -->|Pass ✅| E[Final Output 🎓]
+    D -->|Fail ❌| F[Feedback 🔁]
 
     F --> B
 ```
 
 ---
 
-## 🤖 Agents Breakdown  
+## 🤖 Core Agents  
 
-| Agent | Responsibility |
-|------|---------------|
-| 🤖 Generator | Creates explanation + MCQs |
-| 🧐 Reviewer | Evaluates quality & correctness |
-| 🔁 Refinement | Improves based on feedback |
+| Agent | Role |
+|------|------|
+| 🤖 Generator | Creates explanations + MCQs |
+| 🧐 Reviewer | Evaluates quality, clarity, correctness |
+| 🔁 Refinement | Improves output using feedback |
 
 ---
 
-## ⚡ What Makes This Unique  
+## ⚡ Why EduAgent AI is Different  
 
-✨ Content is **not just generated — it is validated**  
-✨ Ensures **age-appropriate learning**  
-✨ Implements **self-improving AI loop**  
-✨ Matches real-world **educational standards**  
+✨ Not just generation → **evaluation + improvement**  
+✨ Ensures **age-appropriate content**  
+✨ Structured outputs (ready for apps / APIs)  
+✨ Mimics real **teacher-review cycle**  
 
 ---
 
@@ -81,9 +94,9 @@ B. 45°
 C. 180°
 D. 60°
 
-🧐 Reviewer Feedback:
-- Language is clear
-- Concepts correct
+🧐 Review Result:
+✔ Language appropriate
+✔ Concept correct
 
 🎯 Final Status: PASS
 ```
@@ -94,9 +107,9 @@ D. 60°
 
 ```
 🐍 Python
-⚡ Streamlit (UI)
+⚡ Streamlit
 🤖 Gemini API
-📡 REST API Integration
+📡 REST API
 ```
 
 ---
@@ -104,10 +117,10 @@ D. 60°
 ## 📂 Project Structure  
 
 ```
-📁 Eklavya-AI
-│── app.py              # Streamlit UI
-│── agents logic        # Generator + Reviewer
-│── pipeline system     # Orchestration
+📁 EduAgent-AI
+│── app.py
+│── agent pipeline
+│── logic modules
 │── requirements.txt
 ```
 
@@ -124,38 +137,38 @@ streamlit run app.py
 
 ## 🎯 Core Logic  
 
-✔️ Generator creates structured content :contentReference[oaicite:1]{index=1}  
-✔️ Reviewer evaluates correctness  
-✔️ If fail → regenerate with feedback  
-✔️ Only one refinement loop (optimized design)  
+✔️ Generate structured learning content  
+✔️ Validate using reviewer agent  
+✔️ Auto-refine if quality fails  
+✔️ Optimized single feedback loop  
 
 ---
 
-## 🎓 Real Use Cases  
+## 🎓 Use Cases  
 
-- 📚 School content generation  
-- 🧠 Personalized learning  
-- 📝 Practice question creation  
-- 🎯 Adaptive education systems  
+- 📚 Smart content generation  
+- 🧠 AI tutors  
+- 📝 Exam practice systems  
+- 🎯 Adaptive learning platforms  
 
 ---
 
-## 🔮 Future Vision  
+## 🔮 Future Scope  
 
-🚀 Multi-grade adaptive learning  
-📊 Student performance tracking  
-🧠 Personalized AI tutor  
-🌐 Deployment for classrooms  
+🚀 Personalized student learning  
+📊 Performance tracking dashboard  
+🧠 Multi-agent collaboration  
+🌐 Web deployment  
 
 ---
 
 ## 💡 Philosophy  
 
 > “AI should not just teach —  
-> it should ensure understanding.”
+> it should verify understanding.”
 
 ---
 
 <p align="center">
-  🎓 Built for the future of intelligent education
+  🎓 EduAgent AI — Building the Future of Intelligent Learning
 </p>
